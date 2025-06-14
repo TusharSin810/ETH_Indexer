@@ -1,0 +1,8 @@
+CREATE TABLE UsersTable (
+    id SERIAL PRIMARY KEY,
+    username VARCHAR(255) NOT NULL UNIQUE,
+    password VARCHAR(255) NOT NULL UNIQUE,
+    depositAddress VARCHAR(255) NOT NULL,
+    privateKey VARCHAR(255) NOT NULL,
+    balance VARCHAR(255) NOT NULL
+)
